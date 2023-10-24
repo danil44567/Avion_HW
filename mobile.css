@@ -1,0 +1,166 @@
+@media screen and (max-width:1010px) {
+    .hero{
+        position: static;
+        height: auto;
+    }
+    
+    .hero__container {
+        position: static;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 32px;
+        gap: 32px;
+        min-height: 256px;
+
+    }
+
+    .hero img {
+        height: 304px;
+        width: 100%;
+        /* max-width: 559px; */
+        object-fit: cover;
+    }
+
+    .hero__text {
+        gap: 12px;
+    }
+
+    .hero__text h1 {
+        font-size: 24px;
+    }
+
+    .hero__text p {
+        font-size: 16px;
+    }
+
+    .features{
+        padding-top: 48px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .features__card{
+        width: 294px;
+        padding: 36px 24px;
+    }
+
+    .button {
+        align-self: center;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        /* box-sizing: border-box; */
+    }
+
+    button a {
+        text-align: center;
+
+    }
+
+    .listings{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .listings__card img {
+        width: 163px;
+        height: 201px;
+    }
+
+    .listings__cards {
+        column-gap: 16px;
+    }
+
+    .features2 {
+        flex-direction: column;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .features2 img {
+        /* width: 342px;
+        height: 259px; */
+        height: 259px;
+        width: 100%;
+        max-width: 559px;
+        object-fit: cover;
+    }
+
+    .features2__text-block {
+        /* height: 215px;
+        width: 275px; */
+        height: auto;
+        width: auto;
+        min-height: 215px;
+        max-width: 495px;
+        padding: 36px 32px 30px 32px;
+    }
+
+
+    .features2__text h2 {
+        font-size: 20px;
+    }
+
+    .features2__text p {
+        font-size: 14px;
+    }
+
+
+    .sign-up__content{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24px;
+        padding-bottom: 35px;
+    }
+    .sign-up__title {
+        width: auto;
+    }
+
+    .sign-up__info {
+        align-items: flex-start;
+    }
+
+    .sign-up__info h2 {
+        text-align: start;
+        font-size: 24px;
+    }
+
+    .sign-up__info p {
+        text-align: start;
+        font-size: 14px;
+    }
+
+    .sign-up__benefits {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .sign-up__input {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer__content {
+        column-gap: 96px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 40px;
+    }
+
+    .footer__line{
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .footer__copyright{
+        justify-content: center;
+    }
+    .footer__logos{
+        display: none;
+    }
+}
